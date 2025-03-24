@@ -3,28 +3,29 @@ import ExperienceDetail from './ExperienceDetail';
 import Modal from './Modal';
 
 const experienceData = [
-
   {
-    title: 'Software engineer',
-    company: 'Airclub software',
-    year: '2023 - 2024',
-    description: 'Contributed to the development and maintenance of an integrated software platform',
+    title: 'Full Stack Developer',
+    company: 'Flyhigh Talent',
+    year: 'Feb 2024 – Present',
+    description: 'Led full-stack development of a cross-platform drama application and real-time health dashboard.',
     details: [
-      'Contributed to the development and maintenance of an integrated software platform using TypeScript, React, Node.js, GraphQL, and Tailwind CSS, from requirements gathering to final implementation.',
-      'Led the development of the membership application independently, including the user interface. Collaborated with the visual design team using Figma. Ensured compatibility with older browsers, building complete functionalities using either graceful degradation or progressive enhancement as needed.',
-      'Optimized initial page load time using dynamic import and code splitting technologies, loading specific modules only when needed. Reduced unnecessary asynchronous data requests and lazy-loaded non-visible components to minimize rendering blockages.',
-      'Compressed all images in the project using ImageOptim, achieving an average compression rate of 40%, significantly reducing page load time. Selected the optimal image format based on usage scenarios, such as using WebP.'
+      'Led the development of a cross-platform drama application using React, TypeScript, and Next.js, ensuring a consistent user experience across web, iOS, Android, and WeChat Mini Program.',
+      'Designed and implemented a serverless backend architecture using Firebase (Firestore, Authentication, Cloud Functions, Storage, and Realtime Database) to manage user authentication, script access control, and scalable content storage.',
+      'Utilized Next.js SSR (Server-Side Rendering) and ISR (Incremental Static Regeneration) to improve SEO, content discoverability, and page load speed, optimizing the browsing experience for users.',
+      'Developed and optimized Low Energy Bluetooth (BLE) connectivity on the Android platform using Kotlin, supporting simultaneous connections with multiple medical devices and enabling efficient Bluetooth scanning, pairing, and data synchronization.',
+      'Designed and built a real-time data visualization dashboard using SVG and React Native for dynamic analysis and display of health data as part of the Securra Health project.'
     ]
   },
   {
-    title: 'Data Analyst',
-    company: 'Women’s Economic Ventures',
-    year: '2023',
-    description: 'Formed a deep collaboration with a third-party white-label platform to design a full-stack solution for UC and nonprofit field projects',
+    title: 'Full Stack Developer Intern',
+    company: 'Airclub Software',
+    year: 'Sep 2023 – Feb 2024',
+    description: 'Built and maintained a membership application with a clear front-end/back-end separation.',
     details: [
-      'Conducted extensive data analysis on over 18,000 potential client companies, introducing new financing methods that significantly increased fund recovery rates by over 40%',
-      'Developed operational reports and dashboards in Tableau, integrating interactive design elements to enhance the project\'s functionality and structure',
-      'Established a white-label solution incorporating storage services, integrating front-end and back-end to create an intelligent management platform'
+      'Developed a membership application with front-end and back-end separation functionality, establishing partnerships with multiple gyms.',
+      'Collaborated with the visual design team using Figma to implement responsive and mobile-first UI/UX best practices.',
+      'Implemented JWT authentication for secure user access.',
+      'Refactored large components into smaller, reusable modules, reducing rendering overhead by 15%, while ensuring cross-browser compatibility through progressive enhancement techniques.'
     ]
   }
 ];

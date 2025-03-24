@@ -1,17 +1,18 @@
 const skills = [
-    { name: "HTML / CSS", percent: 95 },
-    { name: "JavaScript / TypeScript", percent: 85 },
-    { name: "C#", percent: 60 },
-    { name: "Java", percent: 80 },
-    { name: "Python", percent: 65 },
+    { name: "Node.js", percent: 85 },
+    { name: "Spring", percent: 70 },
+    { name: "MongoDB", percent: 60 },
+    { name: "CI/CD", percent: 80 },
+    { name: "Docker", percent: 65 },
+    
   ];
-function Technologies () {
+function Backend () {
     return (
-        <div className="flex flex-col basis-1/3">
+        <div className="flex flex-col basis-1/5">
           {/* 标题 */}
           <h4 className="mb-4">
             <span className="bg-firstColor text-white text-sm font-medium px-3 py-1 rounded">
-              Languages
+            Backend Technologies
             </span>
           </h4>
     
@@ -23,7 +24,7 @@ function Technologies () {
                 className="bg-zinc-700 p-4 rounded-lg shadow hover:scale-[1.03] transition"
               >
                 {/* 上部：名称 + 百分比 */}
-                <div className="flex justify-between items-center mb-2 text-sm font-medium text-primaryText dark:text-zinc-200">
+                <div className="flex justify-between items-center mb-2 text-xs font-medium text-primaryText dark:text-zinc-200">
                   <span>{skill.name}</span>
                   <span>{skill.percent}%</span>
                 </div>
@@ -42,4 +43,4 @@ function Technologies () {
       );
 }
 
-export default Technologies;
+export default Backend;

@@ -1,6 +1,7 @@
 import Education from "./Education";
 import Languages from "./Languages";
-import Technologies from "./Technologies";
+import Frontend from "./Frontend";
+import Backend from "./Backend";
 function Qualifications() {
   return (
     <div className="flex flex-col gap-y-4 bg-background p-3.5 rounded-2xl mx-6 mb-8 md:col-span-12 lg:mb-4">
@@ -10,7 +11,8 @@ function Qualifications() {
       <div className="flex flex-col lg:flex-row gap-4">
         <Education />
         <Languages />
-        <Technologies />
+        <Frontend />
+        <Backend />
       </div>
     </div>
   );

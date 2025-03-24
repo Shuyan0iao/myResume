@@ -6,7 +6,7 @@ function About() {
                 
             </div>
             <p className="text-gray-400 text-left">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            Hey there! I’m Shuyan, a developer who loves turning ideas into real-world apps with clean code and smart design. Whether it’s web, mobile, or a tiny WeChat Mini Program—I’m all about crafting smooth, user-friendly experiences.
             </p>
         </div>
     );

@@ -1,14 +1,14 @@
 const skills = [
-  { name: "HTML / CSS", percent: 95 },
-  { name: "JavaScript / TypeScript", percent: 85 },
-  { name: "C#", percent: 60 },
-  { name: "Java", percent: 80 },
-  { name: "Python", percent: 65 },
+  { name: "JavaScript / TypeScript", percent: 95 },
+  { name: "Java/Kotlin", percent: 85 },
+  { name: "Python", percent: 60 },
+  { name: "C#", percent: 80 },
+  { name: "C/C++", percent: 65 },
 ];
 
 function Languages() {
   return (
-    <div className="flex flex-col basis-1/3">
+    <div className="flex flex-col basis-1/5">
       {/* 标题 */}
       <h4 className="mb-4">
         <span className="bg-firstColor text-white text-sm font-medium px-3 py-1 rounded">
@@ -24,7 +24,7 @@ function Languages() {
             className="bg-zinc-700 dark:bg-zinc-800 p-4 rounded-lg shadow hover:scale-[1.03] transition"
           >
             {/* 上部：名称 + 百分比 */}
-            <div className="flex justify-between items-center mb-2 text-sm font-medium text-primaryText dark:text-zinc-200">
+            <div className="flex justify-between items-center mb-2 text-xs font-medium text-primaryText dark:text-zinc-200">
               <span>{skill.name}</span>
               <span>{skill.percent}%</span>
             </div>

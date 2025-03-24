@@ -1,22 +1,20 @@
-
-import './App.css'
 import 'boxicons/css/boxicons.min.css';
-import Navigation from './Navigation';
-import Profile from './profile/profile';
-import Sections from './sections/sections';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './home';
+import Portfolio from './portfolio/portfolio';
 
 function App() {
   return (
-    <div className="min-h-screen bg-default text-whit">
-
-      <div className='md:grid md:grid-cols-12 md:grid-flow-dense md:h-full xl:container xl:mx-auto 2xl:max-w-[1280px]'>
-        <Navigation />
-        <Profile />
-        <Sections />
+    <Router>
+      <div className="min-h-screen bg-default">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolio/:page" element={<Portfolio />} />
+        </Routes>
       </div>
-
-    </div>
+    </Router>
   );
 }
 
-export default App
+export default App;

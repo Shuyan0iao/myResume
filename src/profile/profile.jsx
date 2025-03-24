@@ -2,7 +2,7 @@ import ProfilePicture from "./ProfilePicture";
 import Info from "./Info";
 import Resume from "./Resume";
 import Stats from "./Stats";
-import Portfolio from "./Portfolio";
+import Projects from "./Projects";
 import About from "./About";
 
 function Profile () {
@@ -12,7 +12,7 @@ function Profile () {
             <Info />
             <Resume />
             <Stats />
-            <Portfolio />
+            <Projects />
             <About />
         </>
     );
